@@ -111,8 +111,8 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  /* background: url("https://github.com/Kapil987/contactKapil.github.io/blob/main/images/background.png") no-repeat; */
-  background: url("images/background.png") no-repeat;
+  /* background: url("https://media.licdn.com/dms/image/D5603AQFninzwoBq4SQ/profile-displayphoto-shrink_800_800/0/1674051505468?e=1727913600&v=beta&t=5O6s-o6sHDAUWu4TuSCBb9dJq19O83Jo9wkLT0Yutes") no-repeat; */
+  background: url("https://media.licdn.com/dms/image/D5603AQFninzwoBq4SQ/profile-displayphoto-shrink_800_800/0/1674051505468?e=1727913600&v=beta&t=5O6s-o6sHDAUWu4TuSCBb9dJq19O83Jo9wkLT0Yutes") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
