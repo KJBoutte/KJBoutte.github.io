@@ -111,8 +111,8 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  /* background: url("https://media.licdn.com/dms/image/D5603AQFninzwoBq4SQ/profile-displayphoto-shrink_800_800/0/1674051505468?e=1727913600&v=beta&t=5O6s-o6sHDAUWu4TuSCBb9dJq19O83Jo9wkLT0Yutes") no-repeat; */
-  background: url("https://media.licdn.com/dms/image/D5603AQFninzwoBq4SQ/profile-displayphoto-shrink_800_800/0/1674051505468?e=1727913600&v=beta&t=5O6s-o6sHDAUWu4TuSCBb9dJq19O83Jo9wkLT0Yutes") no-repeat;
+  /* background: url("https://github.com/Kapil987/contactKapil.github.io/blob/main/images/background.png") no-repeat; */
+  background: url("images/background.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -276,67 +276,13 @@ section .button button:hover{
   color: #4070f4;
 }
 
- /* My Skills CSS */
- .skills{
-   background: #F0F8FF;
- }
- .skills .content{
-   padding: 40px 0;
- }
- .skills .skills-details{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .skills-details .text{
-   width: 50%;
- }
- .skills-details p{
-   color: #0E2431;
-   text-align: justify;
- }
-.skills .skills-details .experience{
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-}
-.skills-details .experience .num{
-  color: #0E2431;
-  font-size: 80px;
-}
-.skills-details .experience .exp{
-  color: #0E2431;
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
-}
-.skills-details .boxes{
-  width: 45%;
+/* My Skills CSS */
+.skills .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.skills-details .box{
-  width: calc(100% / 2 - 20px);
-  margin: 20px 0;
-}
-.skills-details .boxes .topic{
-  font-size: 20px;
-  color: #4070f4;
-}
-.skills-details .boxes .per{
-  font-size: 60px;
-  color: #4070f4;
-}
-
-/* My Services CSS */
-.services .boxes{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.services .boxes .box{
+.skills .boxes .box{
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -346,11 +292,11 @@ section .button button:hover{
   cursor: default;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover{
+.skills .boxes .box:hover{
   background: #4070f4;
   color: #fff;
 }
-.services .boxes .box .icon{
+.skills .boxes .box .icon{
   height: 50px;
   width: 50px;
   /* background: #4070f4; */
@@ -367,13 +313,13 @@ section .button button:hover{
   background-color: #fff;
   color: #4070f4;
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.skills .boxes .box:hover .topic,
+.skills .boxes .box:hover p{
   color: #0E2431;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.skills .boxes .box:hover .topic,
+.skills .boxes .box:hover p{
   color: #fff;
 }
 /* Contact Me CSS */
@@ -443,7 +389,7 @@ footer .text span a:hover{
     width: 90%;
     margin: 40px 0;
   }
-  .services .boxes .box{
+  .skills .boxes .box{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
@@ -511,7 +457,7 @@ footer .text span a:hover{
     align-items: center;
     width: 100%;
   }
-  .services .boxes .box{
+  .skills .boxes .box{
     margin: 20px 0;
     width: 100%;
   }
